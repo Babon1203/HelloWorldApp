@@ -17,35 +17,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hi9-gQ-nDJ">
-                                <rect key="frame" x="60" y="62" width="200" height="200"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YyH-o5-PYI">
-                                <rect key="frame" x="60" y="304" width="200" height="200"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YyH-o5-PYI">
+                                <rect key="frame" x="45" y="50" width="230" height="207"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zHD-VI-rX2">
+                                <rect key="frame" x="45" y="331" width="230" height="207"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zHD-VI-rX2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="7Df-Nk-NuS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zHD-VI-rX2" secondAttribute="trailing" constant="45" id="COG-LG-pp0"/>
+                            <constraint firstItem="YyH-o5-PYI" firstAttribute="trailing" secondItem="zHD-VI-rX2" secondAttribute="trailing" id="EYW-Qa-oyY"/>
+                            <constraint firstItem="zHD-VI-rX2" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.364807" id="Fdt-ie-1jE"/>
+                            <constraint firstItem="YyH-o5-PYI" firstAttribute="width" secondItem="zHD-VI-rX2" secondAttribute="width" id="G3A-XE-gRK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YyH-o5-PYI" secondAttribute="trailing" constant="45" id="InA-ts-SLa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zHD-VI-rX2" secondAttribute="bottom" constant="30" id="JBs-gb-cOU"/>
+                            <constraint firstItem="YyH-o5-PYI" firstAttribute="height" secondItem="zHD-VI-rX2" secondAttribute="height" multiplier="0.997059" id="UO2-8t-cSY"/>
+                            <constraint firstItem="YyH-o5-PYI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="Ys6-9q-ygb"/>
+                            <constraint firstItem="YyH-o5-PYI" firstAttribute="leading" secondItem="zHD-VI-rX2" secondAttribute="leading" id="bU8-Dy-hBx"/>
+                            <constraint firstItem="YyH-o5-PYI" firstAttribute="centerX" secondItem="zHD-VI-rX2" secondAttribute="centerX" id="rJS-hO-Uel"/>
+                            <constraint firstItem="YyH-o5-PYI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="zQN-Id-sah"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="93.75" y="-28.52112676056338"/>
+            <point key="canvasLocation" x="90.697674418604649" y="-29.613733905579402"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemPurpleColor">
-            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
